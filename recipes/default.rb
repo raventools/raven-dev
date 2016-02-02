@@ -5,6 +5,7 @@ include_recipe "raven-dev::fpm"
 include_recipe "raven-dev::php"
 
 %w(
+	createrepo
 	sqlite-devel
 	rpm-build
 	automake
