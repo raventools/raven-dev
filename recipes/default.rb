@@ -3,7 +3,7 @@ include_recipe "raven-dev::fpm"
 include_recipe "raven-dev::php"
 
 %w(
-	libsqlite3-dev
+	sqlite-dev
 ).each do |p|
 	package p
 end
