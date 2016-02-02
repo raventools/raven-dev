@@ -6,6 +6,13 @@ include_recipe "raven-dev::php"
 
 %w(
 	sqlite-devel
+	rpm-build
+	automake
+	autoconf
+	cyrus-sasl-devel
+	openssl-devel
+	telnet
+	strace
 ).each do |p|
 	package p
 end
