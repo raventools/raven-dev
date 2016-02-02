@@ -1,0 +1,16 @@
+syntax enable
+set bs=2
+set tabstop=4
+set shiftwidth=4
+set undolevels=1000
+set cindent
+set background=dark
+set nohlsearch
+set modeline
+set modelines=2
+set title
+let loaded_matchparen = 1
+set encoding=utf-8
+set fileencodings=ascii,utf-8
+set fenc=latin1
+set fileformats=unix,dos
