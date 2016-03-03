@@ -3,6 +3,7 @@ include_recipe "raven-dev::vim"
 include_recipe "raven-dev::ruby"
 include_recipe "raven-dev::fpm"
 include_recipe "raven-dev::php"
+include_recipe "raven-dev::jq"
 
 %w(
 	createrepo
