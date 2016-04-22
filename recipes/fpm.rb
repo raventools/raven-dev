@@ -1,1 +1,1 @@
-gem_package "fpm"
+chef_gem "fpm"
