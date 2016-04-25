@@ -1,1 +1,1 @@
-chef_gem "fpm"
+package "rubygem-fpm"
