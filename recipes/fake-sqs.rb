@@ -1,3 +1,5 @@
+include_recipe "raven-supervisor"
+
 package "rubygem-rack" do
 	version "1.6.4-1"
 end
